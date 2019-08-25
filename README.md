@@ -12,15 +12,15 @@
 	sudo apt install git  
 5) Установка СУБД PostgreSQL  
   5.1 Установка СУБД  
-     sudo apt install postgresql postgresql-contrib  
+  	sudo apt install postgresql postgresql-contrib  
   5.2 Дополнительный пакет интеграции  
-     sudo apt-get install postgresql-contrib libpq-dev python-dev  
+  	sudo apt-get install postgresql-contrib libpq-dev python-dev  
   5.3 Скрипты для выполнения в psql:  
-     5.3.1 Создание БД  
-	CREATE DATABASE shop;   
-     5.3.2 Создание пользователя для работы с сервисом и присвоение ему прав  
-	CREATE USER shop_r WITH PASSWORD 'shop_r';  
-	GRANT ALL PRIVILEGES ON DATABASE shop TO shop_r;  
+  	5.3.1 Создание БД  
+		CREATE DATABASE shop;   
+	5.3.2 Создание пользователя для работы с сервисом и присвоение ему прав  
+		CREATE USER shop_r WITH PASSWORD 'shop_r';  
+		GRANT ALL PRIVILEGES ON DATABASE shop TO shop_r;  
 6) Развертывание проекта, в данном случае с github:  
 	git pull  
 7) Создание виртуальной среды окружения:  
