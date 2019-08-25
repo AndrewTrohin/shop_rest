@@ -1,6 +1,6 @@
    Проект реализует тестовый REST API сервис на Python, подробнее https://yadi.sk/i/dA9umaGbQdMNLw.   
   
-   Установка на 'чистый' сервер Linux:  
+   **Установка на 'чистый' сервер Linux:**  
   
 1) Установка Python3.7   
 	sudo apt install python3.7     
