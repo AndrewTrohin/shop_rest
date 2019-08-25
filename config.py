@@ -2,7 +2,7 @@ import os
 
 
 class Config:
-    DEBUG = True
+    DEBUG = False
     CSRF_ENABLED = True
     JSON_SORT_KEYS = False
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'super-secret-key'
