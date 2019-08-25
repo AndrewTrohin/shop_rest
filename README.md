@@ -1,4 +1,4 @@
-   Проект реализует тестовый REST API сервис на Python, подробнее https://yadi.sk/i/dA9umaGbQdMNLw.   
+   **Проект реализует тестовый REST API сервис на Python, подробнее https://yadi.sk/i/dA9umaGbQdMNLw.**  
   
    **Установка на 'чистый' сервер Linux:**  
   
